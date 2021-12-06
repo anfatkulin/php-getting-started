@@ -1,4 +1,4 @@
 <?php
 
-echo "Hello HEROKU<br />";
+echo "Hello HEROKU 2<br />";
 echo 'I\'m alive!';
