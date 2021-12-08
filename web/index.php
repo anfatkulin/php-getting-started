@@ -2,10 +2,13 @@
 //echo "Hello HEROKU 2<br />";
 ///echo 'I\'m alive!';
 
+echo "Hello HEROKU";
+
+
 session_start();
 $content = [];
 
-if (!S_SESSION['user']) {
+if (!$_SESSION['user']) {
     $content['msg'] = "<br>Вы не авторизованы <br>";
     $content['form'] = true;
 } else {
